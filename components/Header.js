@@ -20,7 +20,9 @@ const Header = () => {
           <Col className="header__col-2" md="auto">
             <div className="polygon"></div>
             <div className="eclipe-1"></div>
-            <div className="video"></div>
+            <div className="video">
+              <img src="/header.png" className="img" alt="header" />
+            </div>
             <div className="eclipe-2"></div>
           </Col>
         </Row>
