@@ -1,13 +1,18 @@
 .themes {
     position: relative;
- 
+    height: 500px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
 
 
-    &__title{
-        height: 100%; 
+
+    &__title {
+        height: 100%;
         width: fit-content;
         display: flex;
         align-items: center;
+
         p {
             transform: rotate(90deg);
             font-family: Open Sans Condensed;
@@ -16,38 +21,65 @@
             font-size: 12px;
             line-height: 16px;
             color: #FFFFFF;
-    
+
         }
     }
 
 
-     &__container{
-         display: flex;
-     }
+    &__container {
+       position: relative;
+       top: 15px;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+
+
+        button {
+            width: 173px;
+            height: 51px;
+            margin: 0 10px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 19px;
+            border: 1px solid #7E53FD;
+            box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
+
+
+            text-align: center;
+
+            color: #7E53FD;
+
+        }
+    }
 
 
 
 
     &__row {
+        flex-wrap: nowrap !important;
         position: relative;
-        bottom: 65px; 
-        
+        bottom: 65px;
+
 
         :first-child {
             left: 135px;
-         
+
 
         }
 
-        :nth-child(2){
-         left: 250px;
-       
+        :nth-child(2) {
+            left: 155px;
+
         }
 
-        :last-child{
-            left: 450px;
-            
-            
+        :last-child {
+            left: 172px;
+
         }
 
 
@@ -64,15 +96,21 @@
     }
 
     &__col {
+        padding: 0 !important;
         position: absolute;
-        height: 360px;
         box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
         border-radius: 10px;
-       
-        
+
+
     }
 
-   
-
-
+    
 }
+
+.themes-img{
+    object-fit: cover;
+    border-radius: 10px;
+    width: 560px;
+    height: 346px;
+}
+

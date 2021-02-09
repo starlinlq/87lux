@@ -6,7 +6,7 @@ const Themes = () => {
   return (
     <div className="themes">
       {" "}
-      <Container>
+      <Container className="themes__container">
         <div className="themes__rectangle">
           <div className="themes__title">
             {" "}
@@ -15,30 +15,19 @@ const Themes = () => {
         </div>
         <Row className="themes__row ">
           <Col className="themes__col">
-            <Image
-              src="/dashboard.png"
-              alt="shopify"
-              layout="fill"
-              quality={100}
-            />
+            <img src="/tab1.png" className="themes-img" />
           </Col>
           <Col className="themes__col">
-            <Image
-              src="/website.png"
-              alt="shopify"
-              layout="fill"
-              quality={100}
-            />
+            <img src="/tab2.png" className="themes-img" />
           </Col>
           <Col className="themes__col">
-            <Image
-              src="/website2.jpg"
-              alt="shopify"
-              layout="fill"
-              quality={100}
-            />
+            <img src="/tab1.png" className="themes-img" />
           </Col>
         </Row>
+        <div className="themes__buttons">
+          <button>View Themes</button>
+          <button>View apps</button>
+        </div>
       </Container>
     </div>
   );

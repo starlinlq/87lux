@@ -1,0 +1,138 @@
+.custom {
+    position: relative;
+    margin-top: 11px;
+    top: 220px;
+
+    &__row-title {
+        text-align: center;
+
+        .title {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 65px;
+
+            color: #38394F;
+        }
+    }
+
+
+    &__col-tabs {
+        padding: 0 !important;
+        background: #FFFFFF;
+        box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+
+
+
+
+    }
+
+    &__themes {
+        width: 947px;
+        height: 435px;
+        display: flex;
+
+        .theme-1 {
+            width: 308px;
+            height: 100%;
+
+            p {
+                margin: 0 11px;
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15x;
+                line-height: 157.18%;
+                text-align: justify;
+                color: #38394F;
+            }
+        }
+
+
+        .theme-2 {
+            width: 270px;
+
+            img {
+                width: 260px;
+                height: 100%;
+            }
+
+
+        }
+
+        .theme-3 {
+            width: 367px;
+
+            img {
+                width: 369px;
+                height: 100%;
+                border-bottom-right-radius: 5px;
+
+            }
+
+        }
+
+    }
+
+    &__tabs {
+        background: #E5E5E5;
+
+
+
+
+
+        .tab {
+            background-color: white;
+            cursor: pointer;
+            border-top: 5px solid #38AF43;
+            width: 308px;
+            height: 45px;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 250%;
+            text-align: center;
+
+            color: #000000;
+
+
+        }
+    }
+
+    &__row-theme {
+        margin-top: 90px;
+    }
+
+    &__col-theme {
+
+        ul {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 250%;
+            list-style: none;
+
+            :first-child {
+                color: black;
+            }
+
+            li {
+                cursor: pointer;
+                color: gray;
+            }
+
+            span {
+                color: #38AF43;
+            }
+        }
+    }
+
+
+
+
+
+}
