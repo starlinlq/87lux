@@ -1,12 +1,12 @@
 .header {
     &__col-1 {
-        margin-top: 204px;
+        margin-top: 130px;
 
         .title {
-            font-style: normal;
+            font-size: 40px;
+            font-family: 'Nanum Gothic', sans-serif;
             font-weight: normal;
-            width: 560px;
-            height: 148px;
+            width: 600px;
             line-height: 78px;
             color: #000000;
         }
@@ -45,7 +45,8 @@
 
     &__col-2 {
         position: relative;
-    
+        right: 20px;
+      
 
         .polygon {
             clip-path: polygon(50% 0%, 0% 100%, 100% 100%);

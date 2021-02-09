@@ -25,6 +25,7 @@
         top: 0;
         right: 210px;
         border: 5px solid rgba(255, 145, 44, 0.87);
+      
     }
 
     :nth-child(2) {
@@ -82,6 +83,20 @@
         box-shadow: 0px 12px 42px 1px rgba(255, 145, 44, 0.4);
         border-radius: 50%;
 
+
+        .img{
+            border: none;
+            width: 100%;
+            height: 100%;
+
+        }
+
+       
+
+    
     }
 
+   
+
 }
+
