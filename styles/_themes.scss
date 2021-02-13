@@ -14,14 +14,14 @@
         align-items: center;
 
         p {
+            position: relative;
+            top: 8px;
             transform: rotate(90deg);
             font-family: Open Sans Condensed;
             font-style: normal;
             font-weight: bold;
             font-size: 12px;
-            line-height: 16px;
             color: #FFFFFF;
-
         }
     }
 
@@ -51,6 +51,16 @@
             text-align: center;
             color: #7E53FD;
 
+
+            
+
+        }
+
+        button:hover{
+            
+                background-color: #7E53FD;
+                color: white;
+                border-color: white;
         }
     }
 
@@ -97,7 +107,6 @@
         position: absolute;
         box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
         border-radius: 10px;
-
 
     }
 
