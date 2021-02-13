@@ -4,7 +4,7 @@ import Image from "next/image";
 function MeetTeam() {
   return (
     <Container className="team">
-      <div className="team__circle">
+      <div className="team__circle circle-1">
         <img src="/pic1.png" className="img" alt="team1" />
       </div>
       <div className="team__circle">
