@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 const Layout = ({ children }) => {
   return (
-    <div style={{ overflowX: "none" }}>
+    <div style={{}}>
       <NavBar />
       <div className="layout-container">{children}</div>
     </div>

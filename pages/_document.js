@@ -10,7 +10,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="stylesheet" href="https://use.typekit.net/lmj6pmt.css" />
+
           <link
             href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap"
             rel="stylesheet"

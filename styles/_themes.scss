@@ -110,6 +110,36 @@
 
     }
 
+    @media screen and (max-width: 500px){
+      
+        margin-top: 800px;
+       
+
+       
+        
+    }
+
+    @media screen and (max-width: 800px){
+        overflow-x: scroll;
+        margin-top: 600px;
+       
+
+        &__rectangle {
+            
+            width: 1000px;
+            height: 150px;
+            background: linear-gradient(180deg, #25293E 0%, #38394F 100%);
+            border-radius: 10px;
+    
+        }
+
+        .themes-img{
+            width: 460px;
+            height: 246px;
+        }
+        
+    }
+
     
 }
 

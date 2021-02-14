@@ -9,4 +9,17 @@
         line-height: 16px;
         color: #7C828D;
     }
+
+
+
+    @media screen and (max-width: 800px){
+
+        &__row{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        margin-top: 350px;
+    }
 }

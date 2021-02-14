@@ -6,7 +6,7 @@ const Platforms = () => {
   return (
     <Container className="platforms">
       <span className="platforms__title">PLATFORMS</span>
-      <Row className="justify-content-md-center">
+      <Row className="justify-content-md-center platforms__row">
         <Col md="auto" xs>
           <Image
             src="/shopify.svg"
